@@ -31,6 +31,56 @@ header img{
 		-webkit-animation-fill-mode: forwards;
 		-webkit-transform-origin: left top;
 		}
+header h1{
+		font-size: 26px;
+		font-style: bold;
+		padding: 20px;
+		float: left;
+		}
+		
+nav{
+		width: 700px;
+		margin: 50px auto;
+		animation: flipInY 1.5s;
+		animation-fill-mode: left top;
+		}
+		
+nav img{
+			border-radius: 50%;
+			margin: 10px;
+		}	
+		
+nav img:hover{
+			-webkit-animation: scaleIn 0.5s;
+			-webkit-animation-fill-mode: forwards;
+			transform-origin: center center;
+			}
+			
+@-webkit-keyframes flipInY
+{
+	0% {transform: rotateY(90deg)}
+	40% {transform: rotateY(-10deg)}
+	70% {transform: rotateY(10deg)}
+	100% {transform: rotateY(0deg)}
+}
+
+@-webkit-keyframes fadeIn
+{
+	100% {transform: translateX(300px)}
+}
+
+@-webkit-keyframes flipInX
+{
+	0% {transform: rotateX(90deg)}
+	40% {transform: rotateX(-10deg)}
+	70% {transform: rotateX(10deg)}
+	100% {transform: rotateX(0deg)}
+}
+
+@-webkit-keyframes scaleIn
+{
+	100% {transform: scale(1.1)}
+}
 		
 
 			
