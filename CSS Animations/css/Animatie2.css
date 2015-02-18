@@ -1,4 +1,36 @@
 body {
 
-	background-color: #CCCFFF;
+	background-color: #CCFFFF;
 }
+
+#content{
+	width: 690px;
+	margin: 100px auto;
+	}
+
+header{
+	
+	padding: 30px;
+	background-color: #00ccff;
+	overflow: hidden;
+	-webkit-animation: flipInX 1.5s;
+	-webkit-animation-fill-mode: forward;
+	-webkit-transform-origin: center center;
+}
+
+header img{
+		float: left;
+		width: 100px;
+		height: 100px;
+		
+		}
+
+.screen{
+		margin-left: -300px;
+		-webkit-animation: fadeIn 1.5s;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-transform-origin: left top;
+		}
+		
+
+			
