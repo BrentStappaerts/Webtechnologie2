@@ -11,6 +11,17 @@
 		<div class="cirkel2"></div>
 		<div class="cirkel3"></div>
 	</div>
+	
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		(function() {
+			$('.cirkel').on('click', function(){
+				$('.cirkel1').addClass('animatie1');
+				$('.cirkel2').addClass('animatie2');
+				$('.cirkel3').addClass('animatie3');
+			});
+		})();
+	</script>
 
 </body>
 </html>
