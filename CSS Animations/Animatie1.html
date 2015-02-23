@@ -1,27 +1,25 @@
 <!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Animatie 1</title>
-
+<html>
+	<head>
+		<title>Animatie 1</title>
+			<link rel="stylesheet" href="css/screen.css" media="all">
+			<link rel="stylesheet" href="css/reset.css" media="all">
 </head>
 <body>
-	<div class="cirkels">
-		<div class="cirkel1"></div>
-		<div class="cirkel2"></div>
-		<div class="cirkel3"></div>
-	</div>
-	
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript">
-		(function() {
-			$('.cirkel').on('click', function(){
-				$('.cirkel1').addClass('animatie1');
-				$('.cirkel2').addClass('animatie2');
-				$('.cirkel3').addClass('animatie3');
-			});
-		})();
-	</script>
+	<div class="rondje r1"></div>
+	<div class="rondje r2"></div>
+	<div class="rondje r3"></div>
 
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	
+	$(document).ready(function() {
+		$(".rondje").click( function() {
+			$(".r1").addClass("o1");
+			$(".r2").addClass("o2");
+			$(".r3").addClass("o3");
+		});
+	});
+	</script>
 </body>
 </html>
