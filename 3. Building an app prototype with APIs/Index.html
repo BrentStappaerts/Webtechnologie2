@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WeerApp</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    </head>
+ <body>
+        <h1 id="header">WeerApp</h1>
+		<div id="nav">
+            <a href="#">Vandaag</a>
+            <a href="morgen.html">Morgen</a>
+        </div>
+		
+
+		<div id="currentWeather" >
+			<h3 id="currentLocation"></h3>
+			<p id="currentDate"></p>
+			<h2 id="currentTemp"></h2>
+			<p id="currentDesc"></p>
+		</div>
+		
+    
+    	<div id="settings">
+            <input id="weatherLoc"  placeholder="Op locatie zoeken" />
+            <input id="adjustLoc" type="button" value="Zoeken">
+        </div>
+
+    	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    </body>
+</html>
