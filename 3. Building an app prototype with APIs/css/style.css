@@ -1,0 +1,90 @@
+body
+{
+	background-image: url("../achtergrond.jpg");
+	font-family: 'Arial';
+	color: black;
+}
+
+#header{
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+
+#currentWeather ,#tomorrowWeather, #settings
+{
+	text-align: center;
+}
+
+
+#adjustLoc
+{
+
+	color: black;
+}
+
+
+#weatherLoc, #adjustLoc
+{
+	padding: 3px;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 40px;
+    
+}
+
+#currentWeather{
+    background-color: beige;
+    opacity: 0.7;
+    
+}
+#tomorrowWeather{ 
+    background-color: beige;
+    opacity: 0.7;
+}
+
+
+a{
+     text-decoration: none;
+     color: black;
+     text-align: center;
+}
+
+li {
+    display: inline;
+    background-color: beige;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#nav{
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
