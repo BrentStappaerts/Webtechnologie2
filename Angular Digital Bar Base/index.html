@@ -16,14 +16,16 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container" ng-app>
             <h1>Digital Bar</h1>
 
             <div class="center">
                 <label for="name">Tell me, what is your name?</label>
-                <input type="text" name="name"/>
-                <p ng-if="myName">Hello, order some drinks!</p>
+                <input type="text" name="name" ng-model="myName"/>
+                <p ng-if="myName">Hello {{myName}}, order some drinks!</p>
             </div>
+            
+          
 
             <div ng-if="myName" class="productsContainer">
 
