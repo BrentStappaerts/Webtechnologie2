@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        <div class="container" ng-app>
+        <div class="container" ng-app="imdApp" ng-controller="myController">
             <h1>Digital Bar</h1>
 
             <div class="center">
@@ -24,18 +24,18 @@
                 <input type="text" name="name" ng-model="myName"/>
                 <p ng-if="myName">Hello {{myName}}, order some drinks!</p>
             </div>
-            
-          
 
             <div ng-if="myName" class="productsContainer">
 
                 <div class="orderAdd">
-                    <input type="text" placeholder="Zoek een product"/>
+                    <input type="text" placeholder="Zoek een product" ng-model="productSearch"/>
 
                     <ul class="productList" >
-                        <li>
-                            <span class="name"></span>
-                            <small class="quantity"></small>
+                        <li ng-repeat="product in products | filter:productSearch">
+                            <span class="name">{{product.name}}</span>
+                            <button ng-click="product.__v = product.__v - 1">-</button>
+                            <small class="quantity">{{product.__v}}</small>
+                            <button ng-click="product.__v = product.__v + 1">+</button>
                         </li>
                     </ul>
                     <button class="action">Send your order</button>
@@ -46,9 +46,9 @@
                 <div class="addProduct">
                     <label>Nieuw Product</label>
                     <div class="input-wrapper">
-                        <input type="text" placeholder="Productnaam" />
+                        <input type="text" ng-model="nieuwProduct" placeholder="Productnaam" />
                     </div>
-                    <button class="action">Add product</button>
+                    <button class="action" ng-click="voegToe()">Add product</button>
                 </div>
             </div>
         </div>
@@ -63,7 +63,31 @@
         <!-- LOCAL SCRIPT-->
         <script>
             // Insert Angular magic here
+            
+            
+            
+            var app = angular.module('imdApp', []);
+            
+            app.controller('myController', function($scope,$http){
+                
+            $scope.data={
+                nieuwProduct:undefined
+            }
+            $http.get('http://imd.district01.be/product').
+            success(function(data, status, headers, config) {
+                $scope.products = data;
+            }).
+            error(function(data, status, headers, config) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+            });
+            
 
+            
+                
+              
+                
+            });
             // API URL: 'http://imd.district01.be'
             // PRODUCTS: 'http://imd.district01.be/product' (PUT - GET)
             // ORDER: 'http://imd.district01.be/order' (POST)
