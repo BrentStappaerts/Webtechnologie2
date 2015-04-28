@@ -10,7 +10,7 @@ Brent Stappaerts - 2IMDa
  - [Lab 5: Node.js](#lab-5-nodejs)
  - [Lab 6: SASS](#lab-6-sass)
  - [Lab 7: Gulp.js](#lab-7-gulpjs)
- - [Lab X: IMDwall](#Project -Live Q&A)
+ - [Project - Live Q&A](#Project -Live Q&A)
 
 ## Lab 1: Git to work 
 ### Opdracht
