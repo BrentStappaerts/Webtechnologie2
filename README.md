@@ -16,7 +16,7 @@ Brent Stappaerts - 2IMDa
 ### Opdracht
 Voor deze opdracht moesten we een kleine website maken in groep en dit met GitHub.
 
-[Link to assignment](https://github.com/bartgoris/Webtechnologie-Opdracht)
+[Link naar opdracht](https://github.com/bartgoris/Webtechnologie-Opdracht)
 
 ### Wat heb ik geleerd
 Leren werken met git (Github) zowel met de GUI als met de comandline.
@@ -27,7 +27,7 @@ Nu kan ik heel gemakkelijk in groep aan een opdracht werken.
 ### Opdracht
 Voor de opdracht voor CSS Animations moesten we 2 kleine opdrachtjes maken. (dingen animeren)
 
-[Link to assignment](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/CSS%20Animations)
+[Link naar opdracht](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/CSS%20Animations)
 
 ### Wat heb ik geleerd
 Ik heb kennis gemaakt met CSS3, hier kan je uw website mee animeren.
@@ -38,7 +38,7 @@ CSS transform, transition, translate and animations.
 ### Opdracht
 Bouw een to-do list met object-oriented Javascript.
 
-[Link to assignment](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/Advenced%20Javascript)
+[Link naar opdracht](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/Advenced%20Javascript)
 
 ### Wat heb ik geleerd
 We hebben geleerd hoe we een applicatie moeten bouwen in object-oriented Javascript.
@@ -49,7 +49,7 @@ Met gebruik van prototypes kunnen we linken naar basis klasses.
 ### Opdracht
 Een weerapp maken met gebruik van de weerapi => [developer.forecast.io](https://developer.forecast.io/)
 
-[Link to assignment](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/3.%20Building%20an%20app%20prototype%20with%20APIs)
+[Link naar opdracht](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/3.%20Building%20an%20app%20prototype%20with%20APIs)
 
 ### Wat heb ik geleerd
 Leren werken met api's (data die men kan gebruiken en importeren).
@@ -59,7 +59,7 @@ Leren werken met api's (data die men kan gebruiken en importeren).
 ### Opdracht
 
 ### Experimenteren met beide (chat)
-[Link to assignment](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/Node.js%20Chat)
+[Link naar opdracht](https://github.com/BrentStappaerts/Webtechnologie2/tree/master/Node.js%20Chat)
 
 
 ### Wat heb ik geleerd
